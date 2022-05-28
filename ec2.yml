@@ -10,6 +10,6 @@
       vpc_subnet_id: subnet-090a90ba75ea92052
       region: us-east-2
   roles:
-      - tasks
+      - copy
       
 ...
