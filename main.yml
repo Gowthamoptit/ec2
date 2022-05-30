@@ -1,4 +1,4 @@
----
+
 - name: launching ec2
   ec2:
     instance_type: "{{ instance_type }}"
@@ -12,4 +12,3 @@
     assign_public_ip: yes
     state: "{{ state }}"
     instance_tags: {"key":"value"}
-...
