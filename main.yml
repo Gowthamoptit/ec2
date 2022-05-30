@@ -1,4 +1,4 @@
-
+---
 - name: launching ec2
   ec2:
     instance_type: "{{ instance_type }}"
