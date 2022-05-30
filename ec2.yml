@@ -9,6 +9,6 @@
       image_id: ami-0fa49cc9dc8d62c84
       vpc_subnet_id: subnet-090a90ba75ea92052
       region: us-east-2
-  roles:
-      - meta    
+  tasks:
+      - include: main.yml
 ...
